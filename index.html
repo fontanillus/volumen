@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volumen Caja con return</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+
+<body>
+    <h1>Calcular volumen de una caja</h1>
+    <h2>Introduzca las medidas en centímetros</h2>
+    <main class="posicion">
+        <aside>
+            <img src="./img/caja-tomar-medidas.jpg" alt="foto">
+        </aside>
+        <div class="contenedor lloc">
+            <p><label for="ancho">Ancho: </label>
+                <input type="number" id="ancho" required></p>
+            <p><label for="alto">Alto: </label>
+                <input type="number" id="alto" required></p>
+            <p><label for="largo">Largo: </label>
+            <input type="number" id="largo" required></p>
+            <br>
+            <button type="button" onclick="calcular()">Calcular volumen</button>
+        </div>
+        <br>
+    </main>
+    <br>
+    <p>El volumen de la caja es de: <span id="volumen">--</span> cm³</p>
+
+    <script src="./js/caja.js"></script>
+
+</body>
+
+</html>

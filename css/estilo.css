@@ -1,0 +1,61 @@
+body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+
+    .posicion {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+        /* Espacio entre imagen y formulario */
+        flex-wrap: wrap;
+        /* Para que se adapte en móviles */
+        margin-top: 20px;
+    }
+
+    aside img {
+        margin-top: 10%;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin: auto;
+        gap: 10px;
+        margin-top: 0;
+    }
+
+    input[type="number"] {
+        width: 60%;
+        box-sizing: border-box;
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    button {
+        margin: 0 auto;
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+
+    .lloc {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.lloc label {
+    width: 80px; /* ajustar según tu preferencia */
+    text-align: right;
+    display:inline-block;
+    
+}
+
